@@ -52,7 +52,9 @@ def modify_video(filepath, output_folder, overlays_folder):
         audio_codec="aac",
         preset="fast",
         bitrate="2000k",
-        fps=fps
+        fps=fps,
+        verbose=False,
+        progress_bar=False
     )
 
     try:
